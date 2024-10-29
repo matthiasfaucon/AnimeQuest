@@ -1,0 +1,31 @@
+{
+   "name": "AnimeQuest",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "type": "module",
+   "devDependencies": {
+      "@types/node": "^22.5.5",
+      "@types/node-fetch": "^2.6.11",
+      "concurrently": "^9.0.1",
+      "nodemon": "^3.1.5",
+      "ts-node": "^10.9.2",
+      "tsx": "^4.19.1",
+      "typescript": "^5.6.2"
+   },
+   "dependencies": {
+      "@fastify/cors": "^10.0.0",
+      "dotenv": "^16.4.5",
+      "fastify": "^5.0.0",
+      "node-fetch": "2",
+      "reflect-metadata": "^0.1.13",
+      "sqlite3": "^5.0.2",
+      "typeorm": "0.3.20",
+      "ufo": "^1.5.4"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "dev": "npx nodemon",
+      "typeorm": "typeorm-ts-node-commonjs",
+       "vercel-build": "npm run build"
+   }
+}
